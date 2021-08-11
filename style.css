@@ -1,0 +1,274 @@
+/** Heading Font: Playfairdisplay Black
+Peragraph: ROboto light
+Button: HammerSmithOne Regular
+**/
+body{
+    margin: 0;
+    /* font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; */
+}
+.container{
+    max-width: 945px;
+    margin: auto;
+}
+.btn{
+    color: #00e0d0;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #00e0d0;
+    display: inline-block;
+    font-family: 'Hammersmith One', sans-serif;
+    transition: 2s;  
+}
+.btn:hover{
+    background: #00e0d0;
+    color: #fff
+}
+.heading{
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+.sub-heading{
+    color: #6f6f72;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+ 
+.heading-bar{
+    width: 50px;
+    height: 2px;
+    background: #8e8c91;
+    display: block;
+    margin: auto;
+}
+#header{
+    background: url(./images/background-header.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.nav-area{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.nav-area nav{
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.nav-area nav ul{
+    list-style: none;
+}
+.nav-area nav ul li{
+    display: inline;
+}
+.nav-area nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav-area nav ul li:hover a{
+    color: #00e0d0;
+}
+.nav-area nav ul li:not(:last-child) a{
+    padding: 20px;
+}
+.nav-area nav ul li.active a{
+    color: #00e0d0;}
+.contain-area{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+}
+.contant-area h1{
+    font-family: 'Playfair Display', serif;
+}
+.contain-area .border{
+    width: 100px;
+    height: 1px;
+    background: #00e0d0;
+    display: block;
+    margin: auto;
+}
+.contant-area p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.story{
+    padding: 70px 0;
+}
+.story .story-class{
+    text-align: center;
+}
+.story p{
+    color: #413d4b;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.section-play-story{
+    background: url(./images/background-story.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+    position: relative;
+}
+.section-play-story .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+}
+.section-play-story .content p{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
+}
+.expertise{
+    padding: 70px 0;
+    text-align: center;
+}
+.expertise h4{
+    letter-spacing: 1px;
+    color: rgb(83, 83, 83);
+}
+.flex-row{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-row .column{
+    width: calc(100% / 3);
+    box-sizing: border-box;
+}
+.icon-box{
+    padding: 20px;
+}
+.flex-row .column:not(:nth-child(3n-0)){
+    border-right: 1px solid rgba(160, 156, 156, 0.39);
+}
+.icon-box .icon-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.icon-box .icon-content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #9a9a9a
+    
+}
+.flex-row .column:not(:nth-child(n+4)){
+    border-bottom: 1px solid rgba(160, 156, 156, 0.39);
+}
+.section-team{
+    background: url(./images/background-team.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.section-team .heading{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+.section-team .sub-heading{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.section-team .container{
+    padding-top: 40px;
+}
+.section-team .avatar-area{
+    border: 1px #fff solid ;
+}
+.avatar-area p {
+    color: #fff;
+}
+.avatar-area h4{
+    color: #fff;
+}
+.container p{
+    color: #fff;
+    padding: 15px 0px;
+    font-size: 13px;
+}
+.container{
+    padding-bottom: 70px;
+}
+.see p{
+    text-align: right;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+}
+.see h2{
+    text-align: left;
+    color: rgb(77, 75, 75);
+    font-size: 22pt;
+font-family: 'Playfair Display', serif;
+}
+.blank-area{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.ceo{
+    background: url(./images/ceo-background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ceo .hello h1{
+    padding-top: 50px;
+    font-size: 60pt;
+    color: #fff;
+}
+.ceo p{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 16pt;
+    color: #fff;
+}
+.num{
+    display: block;
+}
+.row{
+    display:inline-block;
+}
+.first{
+    margin-right: auto;
+}
